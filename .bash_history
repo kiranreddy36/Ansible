@@ -398,3 +398,114 @@ cd ..
 ls -tlr
 ansible-playbook -i ~/hosts setup-apache.yml 
 exit
+ls -tlr
+cd ansible_for_beginners/
+ls -tlr
+ansible-playbook -i ~/hosts setup-apache.yml 
+cd setup-apache/
+ls -tlr
+vi vars/main.yml 
+cat vars/main.yml 
+ls -tlr
+pwd
+cd ..
+ls -ltr
+cat setup-apache.yml
+ansible-playbook -i ~/hosts setup-apache.yml
+ssh 172.31.1.147
+clear
+pwd
+cd setup-apache/
+ls -tlr
+vi vars/main.yml 
+cd ..
+pwd
+ansible-playbook -i ~/hosts setup-apache.yml
+ansible-playbook -i ~/hosts setup-apache.yml -e port=8083
+ansible-playbook -i ~/hosts setup-apache.yml -e port=8082
+pwd
+cd ..
+ls -ltr
+pwd
+echo "# Ansible" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git login
+git
+git commit -m "first commit"git remote add origin https://github.com/kiranreddy36/Ansible.git
+git remote add origin https://github.com/kiranreddy36/Ansible.git
+git commit -m "first commit"
+git push -u origin master
+pwd
+ls -tlr
+git add .
+git config --global user.email "kiran.eda@gmail.com"
+git config --global user.name "kiranreddy36"
+git commi -m "ansible for beginners"
+git commit -m "ansible for beginners"
+git remote add origin https://github.com/kiranreddy36/Ansible.git
+git push origin master
+pwd
+cd ..
+ls -ltr
+git clone https://github.com/kiranreddy36/Ansible.git
+git clone https://github.com/kiranreddy36/Ansible.git /opt
+git clone https://github.com/kiranreddy36/Ansible.git /var
+git clone https://github.com/kiranreddy36/Ansible.git /var/ansible
+sudo git clone https://github.com/kiranreddy36/Ansible.git
+ls -ltr
+cd Ansible/
+ls -tlr
+more playbook-create-dir.yml 
+cat install-package.yml 
+pwd
+ls -tlr
+cd ansible_for_beginners/
+ls -tlr
+pwd
+ls -ltr
+cd ..
+cd 
+pwd
+ls -tlr
+cd ansible_for_beginners/
+ls -tlr
+pwd
+cd ..
+ls -tlr
+history
+git add .
+git push origin master
+ls -tlr
+pwd
+git add ansible_for_beginners 
+git push origin master
+clear
+ls -tlr
+git add ansible_for_beginners/
+git commit -m "ansible for beginers"
+git push -u origin master
+git login
+git --help
+git config --global user.name "kiran.eda@gmail.com"
+git config --global user.name "kiranreddy36"
+git config --global user.email "kiran.eda@gmail.com"
+ssh -T kiranreddy36@github.com
+git config credential.helper store
+git push https://github.com/owner/repo.git
+git push https://github.com/kiranreddy36
+git push https://github.com/kiranreddy36/Ansible.git
+pwd
+ls -tlr
+git config --global user.name "kiranreddy36"
+git@github.com:kiranreddy36/Ansible.git
+bash
+history
+exit
+git add remote https://github.com/kiranreddy36/Ansible.git
+pwd
+ls -tlr
+git commit ansible_for_beginners
+git push -u origin master
+exit
