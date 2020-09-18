@@ -1,0 +1,12 @@
+---
+- name: playbook to copay a file
+  hosts: all
+  become: true
+  tasks:
+   - name: copy a file
+     copy:
+       src: /home/ansadmin/index.html
+       dest: /home/ansadmin
+       owner: kiran
+       group: kiran
+       mode: 0644

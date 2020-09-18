@@ -1,0 +1,15 @@
+---
+- name: install apache2 on ubuntu server
+  hosts: ubuntu
+  become: true
+  tasks:
+      - name: start apache2
+        service:
+         name: apache2
+         state: stopped
+   
+      - name: uninstall on ubuntu
+        apt:
+         name: apache2
+         state: absent
+

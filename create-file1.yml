@@ -1,0 +1,4 @@
+- name: Touch a file, using symbolic modes to set the permissions (equivalent to 0644)
+  file:
+    path: /home/ansadmin/testfile1
+    state: touch
